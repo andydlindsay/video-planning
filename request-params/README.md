@@ -5,9 +5,9 @@
 
 ## Script/Outline
 * Routes like `/home` and `/about` work fine for unique pages
-* However, when we have multiple versions of a resource such as `users`, `products`, or `urls`, we could create routes like this: `users/1`, `users/2`, `users/3`
-* But this would result in extremely similar route handlers and templates/HTML files and our code would be WET instead of DRY
-* So we need a way to create a dynamic route, a route capable of handling many different requests
+* When we have multiple versions of a resource such as `users`, `products`, or `urls`, we could create routes like this: `users/1`, `users/2`, `users/3`
+* But this would result in extremely similar route handlers and templates/HTML files so our code would be WET instead of DRY
+* We need a way to create a dynamic route, a route capable of handling many different requests
 *	To let Express know to expect a variable value, we use the colon syntax
 *	Everything else that doesn't have a colon is considered static (unchanging)
 * We could then parse the url ourselves using `req.url` maybe with `.split` or something, but that seems like too much work
