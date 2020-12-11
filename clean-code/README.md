@@ -51,8 +51,7 @@ const myFunc = function(username) {
 ```
 
 * Code folding (VS Code settings)
-* Open VS Code settings and enable code folding then demonstrate  
-
+* Open VS Code settings and enable code folding then demonstrate
 
 * Review
 * Writing code can be confusing
