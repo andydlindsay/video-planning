@@ -26,9 +26,9 @@
 * Understand what `req.params` is, where it comes from, and how to use it
 
 ## Prerequisites
-* Objects - dot notation
+* Objects - dot notation, key/value pairs
 * ExpressJS - route handlers, request and response objects
-* HTTP - specifically GET request and request/response cycle
+* HTTP - GET request and request/response cycle
 * Client/Server relationship
 
 ## Position in Curriculum
